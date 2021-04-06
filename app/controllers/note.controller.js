@@ -15,6 +15,10 @@ exports.create = (req, res) => {
     content: req.body.content,
     color: req.body.color,
     paper: req.body.paper,
+    fontStyle: req.body.fontStyle,
+    penColor: req.body.penColor,
+    brushColor: req.body.brushColor,
+    brushSize: req.body.brushSize,
     published: req.body.published ? req.body.published : false
   });
 
